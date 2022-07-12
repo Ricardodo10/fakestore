@@ -16,15 +16,17 @@ function Product() {
 
   return (
     
+    
     <div>
-    <ul>
+    <ol>
         {posts.map(post =>
              <li key={post.id}>
-                <img src={post.image} ></img>
                 <h1>{post.title} </h1>
-                    <h3>{post.price}$</h3>
+                <h3>{post.price}$</h3>
+                <img src={post.image} alt='' ></img>
+                
               </li>)}
-    </ul>
+    </ol>
 </div>
   )
 }

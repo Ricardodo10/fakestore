@@ -1,0 +1,20 @@
+img{
+    height: 120px;
+    width: 120px;
+}
+h3{
+    color: red;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: medium;
+    width: 308px;
+}
+ol{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    
+}
