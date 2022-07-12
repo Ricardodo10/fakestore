@@ -1,11 +1,18 @@
+import React  from 'react'
+import Filter from './Filter';
+import Product from './Product'
 
 
-fetch("https://fakestoreapi.com/products")
-  .then((res) => res.json())
-  .then((json) => console.log(json));
 
-function App() {
-  return 
+  function App() {
+  return (
+    <>
+    <Product />
+    <Filter />
+    
+    </>
+
+  )
 }
 
 export default App;
