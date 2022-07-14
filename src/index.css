@@ -7,7 +7,7 @@ h3{
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
 }
-h1{
+h2{
     font-family: Verdana, Tahoma, sans-serif;
     font-size: medium;
     width: 308px;
@@ -17,4 +17,22 @@ ol{
     flex-wrap: wrap ;
     justify-content: space-evenly;
     
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    background-color: whitesmoke;
+}
+li{
+    background-color: white;
+    text-align: center;
+    image-rendering: auto;
+
+}
+p{
+    font-size: ;
 }

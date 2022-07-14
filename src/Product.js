@@ -15,13 +15,13 @@ function Product() {
     }, [])
 
   return (
-    
+
     
     <div>
     <ol>
         {posts.map(post =>
              <li key={post.id}>
-                <h1>{post.title} </h1>
+                <h2>{post.title} </h2>
                 <h3>{post.price}$</h3>
                 <img src={post.image} alt='' ></img>
                 
